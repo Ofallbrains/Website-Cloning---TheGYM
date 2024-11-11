@@ -1,11 +1,18 @@
+h1 {
+    color: blue;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: auto;
     
 }
 .navbar {
-    padding: 30px;
+    margin-top: 30px;
     display: flex;
     gap: 40px;
 }
@@ -13,3 +20,4 @@ a {
     text-decoration: none;
     color: black;
 }
+
